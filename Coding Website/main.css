@@ -1,0 +1,77 @@
+@font-face {
+  font-family: Poppins;
+  src: url(Poppins.TTF);
+}
+* {
+  font-family: Poppins;
+  padding: 0;
+  margin: 0;
+}
+.container {
+  margin: 90px auto;
+  max-width: 70%;
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 10px 10px;
+}
+.tag {
+  color: blueviolet;
+}
+.attribute {
+  color: brown;
+}
+.comment {
+  color: gray;
+}
+pre {
+  background-color: rgb(15, 8, 2);
+  color: white;
+  max-width: 70%;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+.content {
+  margin-left: 10px;
+}
+h1 {
+  text-align: center;
+}
+header {
+  padding-left: 10px;
+  padding-right: 10px;
+  display: flex;
+  background-color: black;
+  height: 10vh;
+  justify-content: space-between;
+  position: fixed;
+  top: 0; /* Positions the navbar at the top of the page */
+  left: 0; /* Positions the navbar at the left of the page (adjust if needed) */
+  width: 100%;
+}
+nav {
+  max-width: 30vw;
+  width: 1000px;
+  display: flex;
+  justify-content: space-between;
+  margin: auto 0;
+}
+a {
+  background-color: black;
+  text-decoration: none;
+  color: white;
+}
+a:hover {
+  color: gray;
+}
+.userID {
+  margin: auto 20px;
+}
+a::selection {
+  background-color: white;
+}
+.first {
+  background-color: brown;
+}
+.second {
+  background-color: black;
+}

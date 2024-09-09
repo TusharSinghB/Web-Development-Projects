@@ -1,0 +1,76 @@
+* {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  height: 100vh;
+  background: linear-gradient(
+    to right,
+    rgb(67, 67, 67),
+    rgb(45, 51, 74),
+    rgb(24, 19, 50)
+  );
+}
+.title {
+  color: wheat;
+  padding-top: 15vh;
+  padding-bottom: 5vh;
+  text-align: center;
+  font-size: 5rem;
+  font-weight: 700;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+}
+input {
+  background-color: rgb(73, 73, 73);
+  margin: 0 1vw;
+  padding: 10px;
+  color: white;
+  width: 50%;
+  font-size: 2rem;
+  font-weight: 700;
+  border-radius: 10px;
+}
+#add_button {
+  font-size: 2rem;
+  font-weight: 700;
+  background-color: rgb(24, 24, 24);
+  color: wheat;
+  border-radius: 10px;
+}
+ul {
+  margin: 0 30px;
+  padding: 2px 2px;
+}
+li {
+  list-style: none;
+  background-color: rgb(26, 26, 26);
+  color: whitesmoke;
+  margin: 1% 20%;
+  padding: 1%;
+  padding-left: 10px;
+  border-radius: 10px;
+}
+.button {
+  float: right;
+  margin-right: 5%;
+  background-color: black;
+
+  border-radius: 10px;
+  color: white;
+}
+.del {
+  border-style: none;
+  background-color: rgb(106, 106, 106);
+  border-radius: 100%;
+  border: 2px solid black;
+  float: right;
+  margin-right: 5%;
+}
+.button_image {
+  height: 25px;
+  width: 25px;
+}
